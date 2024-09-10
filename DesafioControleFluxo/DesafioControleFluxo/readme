@@ -1,0 +1,9 @@
+DesafioControleFluxo
+Este projeto tem como objetivo realizar uma contagem de números com base em dois parâmetros fornecidos pelo usuário. O programa valida se o primeiro parâmetro é menor que o segundo, e, caso contrário, lança uma exceção customizada. Além disso, foram adicionados loops extras que permitem maior interatividade, como a opção de inverter os parâmetros em caso de erro e a repetição do processo de contagem.
+
+Funcionalidades
+O usuário insere dois números inteiros.
+O programa verifica se o primeiro número é menor que o segundo:
+Se o primeiro número for maior, uma exceção chamada ParametrosInvalidosException é lançada, com a mensagem: "O segundo parâmetro deve ser maior que o primeiro".
+O usuário pode decidir se deseja inverter os parâmetros e realizar a contagem invertida.
+Após cada execução, o usuário pode escolher se deseja realizar outra contagem ou encerrar o programa.
